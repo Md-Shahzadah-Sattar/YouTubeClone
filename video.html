@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="video.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <section class="logo-btn">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <a href=""
+          ><img
+            class="logo"
+            src="./images/YouTube-White-Full-Color-Logo.wine.svg"
+            style="height: 55px"
+            alt=""
+        /></a>
+      </section>
+
+      <section class="nav-search">
+        <input
+          id="search-input"
+          class="nav-input"
+          type="text"
+          placeholder="search"
+        />
+        <button id="search-btn" class="nav-search-btn">
+          <img class="voice-search" src="./svgs/searchlogo.svg" alt="" />
+        </button>
+      </section>
+
+      <section class="end">
+        <img class="display-nav" src="./svgs/addvideo.svg" alt="" />
+        <img class="display-nav" src="./svgs/apps.svg" alt="" />
+        <img class="display-nav" src="./svgs/notification.svg" alt="" />
+        <img src="./images/profile-.png" alt="" />
+      </section>
+    </nav>
+
+    <main class="80percdiv">
+      <section class="left">
+        <ol
+          style="border: 1px solid black"
+          class="myDiv iframevideo"
+          id="video-container"
+        ></ol>
+        <div class="video_name" id="video_title_container">
+          <h3 id="video_title">
+            GAADI KAALI Dance Cover | Neha Kakkar, Rohanpreet Singh | Mohit
+            Jain's Dance Institute MJDi
+          </h3>
+          <img src="./svgs/likeViewShare.svg" alt="" />
+        </div>
+        <div class="channelnameSubscribe">
+          <span class="channelInfo" id="channelInfo">
+            <img src="" class="channel-icon" alt="" />
+            <h5 class="channelName">silentCoder</h5>
+            <p style="color: grey"></p>
+          </span>
+          <img src="./svgs/subscribe_logo.svg" class="subscribe" alt="" />
+        </div>
+        <div id="description">
+          <p></p>
+        </div>
+        <hr class="border-line" />
+        <div id="description">
+            <p>
+
+
+            </p>
+        </div>
+        <hr class="border-line">
+        <div class="other_comments" id="other_comments">
+            <!-- <img src="./images/profileSK.jpg" class="profile-img" alt="">
+                <span class="break">Add a public channel-name</span>  -->
+            <!-- <p class="user_comment" id="user_comment">hello</p> -->
+
+        </div>
+        <!-- <br> -->
+
+    </section>
+
+
+    <section class="right">
+        <img class="relatedContent" src="./svgs/relatedcontent.svg" alt="">
+        <img class="relatedContent" src="./svgs/relatedcontent.svg" alt="">
+
+
+    </section>
+      </section>
+      
+    </main>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./video.js"></script>
+  </body>
+</html>
